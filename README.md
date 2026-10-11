@@ -16,7 +16,7 @@ A cross-platform personal tracker built with **Flutter** and **Supabase**. The g
 
 
 
-- [✅ ] Project scaffold and Supabase connection
+- [ ] Project scaffold and Supabase connection
 - [ ] User authentication
 - [ ] Database schema designed (tables: ___ )
 - [ ] Row Level Security policies
