@@ -14,9 +14,9 @@ A cross-platform personal tracker built with **Flutter** and **Supabase**. The g
 
 ## Current Status
 
-Tick what is true on the day you publish this. Delete anything you are not building.
 
-- [ ] Project scaffold and Supabase connection
+
+- [✅ ] Project scaffold and Supabase connection
 - [ ] User authentication
 - [ ] Database schema designed (tables: ___ )
 - [ ] Row Level Security policies
@@ -41,7 +41,6 @@ Most trackers are checkbox apps. This project aims to surface non-obvious relati
 
 ## Screenshots
 
-_Add 2–3 screenshots or a short GIF here once the app runs._
 
 ## Getting Started
 
