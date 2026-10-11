@@ -1,36 +1,67 @@
-# Personal OS (winterArc)
+# Akesis — Personal OS
 
-An AI-powered personal operating system for tracking, understanding, and improving your life.
+A cross-platform personal tracker built with **Flutter** and **Supabase**. The goal is to log habits, goals, tasks, and daily metrics in one place, then (later) analyze how they affect each other.
 
-## 🎯 Vision
+> **Status: in active development.** See the checklist below for what works today and what is planned.
 
-The fundamental loop:
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Client | Flutter / Dart (Android, iOS, Web, Desktop targets) |
+| Backend | Supabase (PostgreSQL, Auth, Row Level Security) |
+| Planned | Python analytics pipeline, LLM-powered summaries |
+
+## Current Status
+
+Tick what is true on the day you publish this. Delete anything you are not building.
+
+- [ ] Project scaffold and Supabase connection
+- [ ] User authentication
+- [ ] Database schema designed (tables: ___ )
+- [ ] Row Level Security policies
+- [ ] Habits
+- [ ] Tasks
+- [ ] Goals
+- [ ] Journal
+- [ ] Metrics
+
+### Roadmap (not started)
+
+- Analytics: correlations across sleep, study, fitness, and mood
+- AI layer: weekly summaries and natural-language logging
+
+## The Idea
+
 ```
-LIFE → TRACK → STORE → ANALYZE → UNDERSTAND → EXPERIMENT → ADAPT → IMPROVE
+TRACK → STORE → ANALYZE → UNDERSTAND → ADAPT
 ```
 
-Personal OS is not a generic checkbox app. It is designed to understand non-obvious relationships across life dimensions:
-- Sleep & Energy
-- Study & Deep Work
-- Fitness & Movement
-- Habits & Consistency
-- Mood & Stress
-- Personal Experiments & Longitudinal Trends
+Most trackers are checkbox apps. This project aims to surface non-obvious relationships between life dimensions (for example sleep and energy, or study time and mood) over longer periods.
 
-## 🏗️ Architecture
+## Screenshots
 
-- **Frontend**: Cross-platform client (Mobile-first, Responsive, Dark/Light mode)
-- **Backend / Database**: Supabase (PostgreSQL with Row Level Security, Realtime, Storage)
-- **Analytics & Data Engine**: Python statistical analysis and machine learning pipeline
-- **AI Engine**: LLM with structured tooling for summaries, Q&A, and natural language ingestion
+_Add 2–3 screenshots or a short GIF here once the app runs._
 
-## 📚 Documentation
+## Getting Started
 
-- [Architecture Guide](file:///c:/Users/user/Documents/All%20projects/winterArc/docs/architecture.md)
-- [Database Schema & Data Model](file:///c:/Users/user/Documents/All%20projects/winterArc/docs/database.md)
-- [Project Roadmap](file:///c:/Users/user/Documents/All%20projects/winterArc/docs/roadmap.md)
-- [Architectural Decision Records (ADRs)](file:///c:/Users/user/Documents/All%20projects/winterArc/docs/decisions.md)
+```bash
+git clone https://github.com/KulkarniSukrut/Akesis.git
+cd Akesis
+flutter pub get
+flutter run
+```
 
-## 🚀 Getting Started
+Create a Supabase project and add your project URL and anon key where the app expects them (describe the exact file or `--dart-define` here).
 
-Instructions for Phase 0 setup and local environment initialization are documented in `docs/architecture.md`.
+## Project Structure
+
+```
+lib/        Flutter app source
+test/       Tests
+android/ ios/ web/ windows/ linux/ macos/   Platform runners
+```
+
+## Author
+
+Sukrut Kulkarni — [GitHub](https://github.com/KulkarniSukrut) · [LinkedIn](https://www.linkedin.com/in/sukrutkulkarni06)
